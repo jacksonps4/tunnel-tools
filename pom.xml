@@ -4,7 +4,7 @@
 
     <groupId>com.minorityhobbies</groupId>
     <artifactId>tunnel-tools</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <build>
         <plugins>
@@ -62,7 +62,7 @@
         <connection>scm:git:https://github.com/jacksonps4/${project.artifactId}.git</connection>
         <developerConnection>scm:git:git@github.com:jacksonps4/${project.artifactId}.git</developerConnection>
         <url>https://github.com/jacksonps4</url>
-        <tag>tunnel-tools-1.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
