@@ -41,40 +41,40 @@
         </license>
     </licenses>
 
-    <scm>
-        <connection>scm:git:https://github.com/jacksonps4/tunnel-tools.git</connection>
-        <developerConnection>scm:git:git@github.com:jacksonps4/tunnel-tools.git</developerConnection>
-        <url>https://github.com/jacksonps4</url>
-        <tag>HEAD</tag>
-    </scm>
-
     <repositories>
         <repository>
             <id>releases-repository</id>
-            <url>https://minorityhobbies.com/maven/repositories/releases</url>
+            <url>https://indigenously.net/maven/repositories/releases</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
         </repository>
         <repository>
             <id>snapshots-repository</id>
-            <url>https://minorityhobbies.com/maven/repositories/snapshots</url>
+            <url>https://indigenously.net/maven/repositories/snapshots</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
         </repository>
     </repositories>
 
+    <scm>
+        <connection>scm:git:https://github.com/jacksonps4/${project.artifactId}.git</connection>
+        <developerConnection>scm:git:git@github.com:jacksonps4/${project.artifactId}.git</developerConnection>
+        <url>https://github.com/jacksonps4</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <distributionManagement>
         <repository>
             <id>releases-repository</id>
             <uniqueVersion>false</uniqueVersion>
-            <url>scpexe://minorityhobbies.com/maven/repositories/releases</url>
+            <url>scpexe://indigenously.net/maven/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>snapshots-repository</id>
             <uniqueVersion>true</uniqueVersion>
-            <url>scpexe://minorityhobbies.com/maven/repositories/snapshots</url>
+            <url>scpexe://indigenously.net/maven/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
